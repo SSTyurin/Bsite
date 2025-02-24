@@ -1,6 +1,7 @@
 <!-- layouts/default.vue -->
 <template>
   <div class="layout">
+    <Navigation />
     <slot />
     <footer class="footer">
       <p>Свяжитесь с нами: +7 (999) 123-45-67</p>
