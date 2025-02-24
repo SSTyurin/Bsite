@@ -1,0 +1,29 @@
+
+{
+    "home": "Home",
+    "about": "About",
+    "services": "Our Services",
+    "title": "BioTech Innovations",
+    "subtitle": "Advanced biotechnological solutions for the future of medicine",
+    "service1": {
+      "name": "Drug Development",
+      "description": "Creating innovative medications using biotechnology."
+    },
+    "service2": {
+      "name": "Genetic Engineering",
+      "description": "Gene modification to treat hereditary diseases."
+    },
+    "service3": {
+      "name": "Clinical Trials",
+      "description": "Full cycle testing of new drugs."
+    },
+    "aboutTitle": "About Us",
+    "aboutSubtitle": "BioTech Innovations — a leader in biotechnology",
+    "goals": "Organization Goals",
+    "mission": "Our mission is to improve people's quality of life through medical innovations. We aim to:",
+    "goal1": "Develop safe and effective drugs to combat incurable diseases.",
+    "goal2": "Promote gene therapy as an accessible treatment method globally.",
+    "goal3": "Create eco-friendly biotechnological solutions for a sustainable future.",
+    "belief": "We believe that science and technology can change the world, and we work every day to make it a reality.",
+    "contact": "Contact us: +7 (999) 123-45-67"
+  }
