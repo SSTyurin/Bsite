@@ -1,7 +1,7 @@
 <!-- components/ServiceMenu.vue -->
 <template>
   <div class="service-menu">
-    <h2 class="menu-title">Наши услуги</h2>
+    <h2 class="menu-title">{{ $t('services') }}</h2>
     <div class="menu-items">
       <button
         v-for="service in services"
@@ -20,12 +20,12 @@ export default {
   props: {
     selectedService: Object
   },
-  data() {
-    return {
-      services: [
-        { id: 1, name: 'Разработка лекарств', description: 'Создание инновационных медикаментов с использованием биотехнологий.' },
-        { id: 2, name: 'Генная инженерия', description: 'Модификация генов для лечения наследственных заболеваний.' },
-        { id: 3, name: 'Клинические испытания', description: 'Полный цикл тестирования новых препаратов.' }
+  computed: {
+    services() {
+      return [
+        { id: 1, name: this.$t('service1.name'), description: this.$t('service1.description') },
+        { id: 2, name: this.$t('service2.name'), description: this.$t('service2.description') },
+        { id: 3, name: this.$t('service3.name'), description: this.$t('service3.description') }
       ]
     }
   }

@@ -4,7 +4,7 @@
     <Navigation />
     <slot />
     <footer class="footer">
-      <p>Свяжитесь с нами: +7 (999) 123-45-67</p>
+      <p>{{ $t('contact') }}</p>
     </footer>
   </div>
 </template>

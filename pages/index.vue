@@ -1,8 +1,8 @@
 <!-- pages/index.vue -->
 <template>
   <div class="container">
-    <h1 class="title">BioTech Innovations</h1>
-    <p class="subtitle">Передовые решения в биотехнологиях для медицины будущего</p>
+    <h1 class="title">{{ $t('title') }}</h1>
+    <p class="subtitle">{{ $t('subtitle') }}</p>
     <ServiceMenu :selected-service="selectedService" @select-service="selectService" />
     <ServiceDescription :service="selectedService" />
   </div>
